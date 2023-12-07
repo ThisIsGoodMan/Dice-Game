@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jason's Final Project - The Dice Game</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.icon">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="../js/scripts.js" defer="defer"></script>
+</head>
+
+<body>
+    <main>
+        <div id="wrapper">
+            <div id="game-container">
+                <h1>Player Score: <span id="player-score">0</span></h1>
+                <h1>Computer Score: <span id="computer-score">0</span></h1>
+                <button id="roll-btn">Roll Dice</button>
+                <button id="reset-btn">Reset Game</button>
+            </div>
+            <!-- Player Dice Rolls -->
+            <div class="dice-container">
+              <h2>Player Dice Rolls:</h2>
+              <div class="dice-row" id="player-dice-rolls">
+                  <img id="player-die-1-0" class="dice-image" src="../resources/images/dice-shield.svg" alt="Player Die 1">
+                  <img id="player-die-2-0" class="dice-image" src="../resources/images/dice-shield.svg" alt="Player Die 2">
+                  <img id="player-die-1-1" class="dice-image" src="../resources/images/dice-shield.svg" alt="Player Die 1">
+                  <img id="player-die-2-1" class="dice-image" src="../resources/images/dice-shield.svg" alt="Player Die 2">
+                  <img id="player-die-1-2" class="dice-image" src="../resources/images/dice-shield.svg" alt="Player Die 1">
+                  <img id="player-die-2-2" class="dice-image" src="../resources/images/dice-shield.svg" alt="Player Die 2">
+              </div>
+            </div>
+
+            <!-- Computer Dice Rolls -->
+            <div class="dice-container">
+              <h2>Computer Dice Rolls:</h2>
+              <div class="dice-row" id="computer-dice-rolls">
+                  <img id="computer-die-1-0" class="dice-image" src="../resources/images/dice-shield.svg" alt="Computer Die 1">
+                  <img id="computer-die-2-0" class="dice-image" src="../resources/images/dice-shield.svg" alt="Computer Die 2">
+                  <img id="computer-die-1-1" class="dice-image" src="../resources/images/dice-shield.svg" alt="Computer Die 1">
+                  <img id="computer-die-2-1" class="dice-image" src="../resources/images/dice-shield.svg" alt="Computer Die 2">
+                  <img id="computer-die-1-2" class="dice-image" src="../resources/images/dice-shield.svg" alt="Computer Die 1">
+                  <img id="computer-die-2-2" class="dice-image" src="../resources/images/dice-shield.svg" alt="Computer Die 2">
+              </div>
+            </div>
+            
+          </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+@font-face {
+  font-family: "helvetica";
+  src: url(../resources/fonts/Helvetica.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+@font-face {
+  font-family: "helvetica";
+  src: url(../resources/fonts/Helvetica-Bold.ttf);
+  font-style: normal;
+  font-weight: 600;
+}
+
+html {
+  background-color: #333;
+  font-family: Helvetica, Sans-Serif;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ecf0f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background: rgb(34,193,195);
+  background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+img {
+  max-width: 50px;
+}
+
+#game-container {
+  text-align: center;
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(52, 152, 219, 0.5);
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  
+}
+
+.dice-container {
+  display: block;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.dice-container .die {
+  width: 50px;
+  height: 50px;
+}
+
+/* .default-dice {
+  background-image: url('../resources/images/dice-shield.svg');
+} */
+
+button {
+  background-color: #12c50c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+button:hover {
+  background-color: #217dbb;
+}
