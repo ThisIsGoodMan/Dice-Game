@@ -119,7 +119,7 @@ $("#close-popup").on("click", () => {
 
         rollCount++;
 
-        if (rollCount === 4) {
+        if (rollCount === 3) {
             endGame();
         }
     });
