@@ -67,9 +67,16 @@ const updateScore = () => {
             winner = "It's a tie!";
         }
 
-        alert(`Game Over! ${winner}`);
-        resetGame();
+        $("#popup-message").text(winner);
+        $("#winner-popup").show();
     };
+
+// Close event listener
+$("#close-popup").on("click", () => {
+    $("#winner-popup").hide();
+
+    resetGame();
+});
 
     // Reset
     const resetGame = () => {
